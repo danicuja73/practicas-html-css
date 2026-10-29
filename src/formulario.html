@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Sencillo</title>
+</head>
+<body>
+
+<p>Diseña el siguiente formulario:</p>
+
+<h2>FORMULARIO</h2>
+
+<form>
+
+    <label for="curso">Curso:</label>
+    <input type="text" id="curso" name="curso" size="15"><br><br>
+
+    <p>Aficiones</p>
+
+    <input type="checkbox" id="cine" name="aficiones" value="cine">
+    <label for="cine">Cine</label><br>
+
+    <input type="checkbox" id="teatro" name="aficiones" value="teatro">
+    <label for="teatro">Teatro</label><br><br>
+
+    <label for="provincia">Provincias</label>
+    <select id="provincia" name="provincia">
+        <option value="" disabled selected>Seleccione</option>
+        <option value="alava">Alava</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="madrid">Madrid</option>
+        <option value="sevilla">Sevilla</option>
+    </select>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+</form>
+
+</body>
+</html>
